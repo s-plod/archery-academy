@@ -1,0 +1,26 @@
+.grid-container div {
+  background-color: aliceblue;
+  padding: 1rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+.grid-item-1 {
+  grid-area: 1 / 1 / 1 / span 4;
+    /* grid row start / grid column start / grid row end / grid column end */
+}
+.grid-item-2 {
+  grid-area: 1 / 5 / 1 / span 4;
+}
+.grid-item-3 {
+  grid-area: 1 / 9 / 1 / span 4;
+}
+.grid-item-4 {
+  grid-area: 1 / 1 / 1 / span 6;
+}
+.grid-item-5 {
+  grid-area: 1 / 1 / 1 / span 6;
+}
