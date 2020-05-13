@@ -1,3 +1,23 @@
+@media (min-width: 1200px) {
+  .body-container {margin: 0px 8rem 0px 8rem;}
+}
+@media (max-width: 1200px) {
+  .body-container {margin: 0px 4rem 0px 4rem;}
+}
+@media (max-width: 700px) {
+  .body-container {margin: 0px 1rem 0px 1rem;}
+}
+
+@media (min-width: 1200px) {
+  .footlogo {height: 90%; width: 90%;}
+}
+@media (max-width: 1200px) {
+  .footlogo {height: 65%; width: 65%;}
+}
+@media (max-width: 700px) {
+  .footlogo {height: 45%; width: 45%;}
+}
+
 .grid-container div {
   background-color: aliceblue;
   padding: 1rem;
