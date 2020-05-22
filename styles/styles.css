@@ -43,9 +43,17 @@ header img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem; }
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem; }
 }
 @media (max-width: 1000px) {
   .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem; }
+  .grid-container-2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1rem; }
@@ -90,7 +98,6 @@ p {
 nav {
   font-weight: bold;
   color: white;
-  }
 }
 a:link {
   color: white;
@@ -123,4 +130,11 @@ a:hover {
   margin-right: auto;
   margin-bottom: 0.5rem;
   width: 50%;
+}
+video {
+  max-width: 100%;
+  height: auto;
+}
+footer p {
+  color: white;
 }
