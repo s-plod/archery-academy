@@ -130,11 +130,12 @@ a:hover {
   margin-right: auto;
   margin-bottom: 0.5rem;
   width: 50%;
+  max-width: 14rem;
+}
+footer p {
+  color: white;
 }
 video {
   max-width: 100%;
   height: auto;
-}
-footer p {
-  color: white;
 }
